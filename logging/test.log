@@ -1,0 +1,5 @@
+19-Jul-2022 00:26:55 root INFO-This is first log
+19-Jul-2022 00:26:55 root DEBUG-This is Debug log
+19-Jul-2022 00:26:55 root WARNING-This is Warning log
+19-Jul-2022 00:26:55 root ERROR-This is error log
+19-Jul-2022 00:26:55 root CRITICAL-This is criticle log
