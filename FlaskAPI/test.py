@@ -4,11 +4,12 @@ app = Flask(__name__)
 
 @app.route('/abc', methods=['POST','GET'])
 def test():
+    result = 0
     if request.method == 'POST':
         a = request.json['num1']
         b = request.json['num2']
         result = a+b
-        return result
+    return result
 
 if __name__ == '__main__':
     app.run()
